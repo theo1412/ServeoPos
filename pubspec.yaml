@@ -1,0 +1,55 @@
+name: serveo_pos
+description: >
+  Serveo – application de caisse (POS) pour restaurants : gestion de tables,
+  catégories, produits, encaissement multi-paiements et synchronisation cloud.
+
+# Numéro de version : major.minor.patch+build
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+# ────────────────────────────
+# Dépendances runtime
+# ────────────────────────────
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # État & logique
+  provider: ^6.1.2
+  uuid: ^4.3.1
+
+  # UI / utilitaires
+  flutter_iconpicker: ^3.0.4
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  esc_pos_printer: ^4.0.0     # Impression ticket ESC/POS (réseau/Bluetooth)
+
+  # Firebase (auth & core)
+  firebase_core: ^2.25.5
+  firebase_auth: ^4.17.4
+
+  # Stockage sécurisé (token, UID)
+  flutter_secure_storage: ^9.0.0
+
+  # Icônes Cupertino (optionnel)
+  cupertino_icons: ^1.0.6
+
+# ────────────────────────────
+# Dépendances dev / lint
+# ────────────────────────────
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+# ────────────────────────────
+# Configuration Flutter
+# ────────────────────────────
+flutter:
+  uses-material-design: true
+
+  # Exemple pour rajouter des assets plus tard
+  # assets:
+  #   - assets/images/

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116466590458",
+    "project_id": "serveo-pos",
+    "storage_bucket": "serveo-pos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116466590458:android:82c440798ff59766711f43",
+        "android_client_info": {
+          "package_name": "com.serveo.pos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDVIfLZoKtf9JO6Teu36cz7qi55pXhx3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
